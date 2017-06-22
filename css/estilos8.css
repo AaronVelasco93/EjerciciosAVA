@@ -1,0 +1,17 @@
+p{
+    color: rgba(0,0,0);
+    font-family:"Helvetica";
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
+    line-height: 20px; /*espacio entre linea de texto*/
+    text-decoration: none;
+    text-transform: uppercase;/*mayusculas tolas letras de texto*/
+    letter-spacing: 0px;/*sepracion entre letras*/
+    text-shadow: 5px 1px 1px #0000;
+}
+
+h1{
+    font-weight: normal;
+    
+}

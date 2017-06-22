@@ -1,0 +1,16 @@
+div{
+    background: aqua;
+    width: 100%;
+    
+}
+
+img{
+    
+    height:auto;
+    width:400px ;
+    height: auto;
+    margin: auto;/*centrar las cosas*/
+    display: block; /*para que se centren las cosas*/
+    border-radius: 5px;
+    box-shadow: 5px 5px 0px #ccc;
+}

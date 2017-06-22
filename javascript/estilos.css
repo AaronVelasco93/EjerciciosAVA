@@ -1,0 +1,34 @@
+div{
+    width: 200px;
+    height: 200px;
+    background: aqua;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+
+    border: 1px solid black;
+    
+    
+}
+
+.azul{
+    background: #0074D9;
+    border: 1px solid #000;
+}
+
+.rojo{
+    background: #FF4136;
+    border: 1px solid #000;
+    
+}
+
+.thumb{
+    width: 200px;
+    transition: 300ms all ease;
+    
+}
+.grande{
+        width: 400px;
+}
+

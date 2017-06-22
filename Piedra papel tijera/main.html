@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<!--  Importando documentos css-->
+    <!-- files de materialize -->
+  <link rel="stylesheet"  type="text/css" href="css/materialize.min.css" media="screen,projection" >
+  <!-- files mios de css -->
+  <link rel="stylesheet" type="text/css" href="css/estilos.css">
+  <title>Piedra Papel Tijeras </title>
+</head>
+<body>
+   
+    <div class="Ima" > 
+    <img src="media/img/reglaslogo.jpg " class="responsive-img"  >
+    </div>
+
+    <div class="row, Ima ">
+        <div class="col s12">
+          Piedra, Papel y Tijeras:
+          <div class="input-field inline">
+            <input id="p1" type="text"  >
+            <label   data-success="right" >Player1</label>
+          </div>
+        </div>
+        
+    <div class="row, Ima">
+        <div class="col s12">
+          Piedra, Papel y Tijeras:
+          <div class="input-field inline">
+            <input id="p2" type="text" >
+            <label  data-success="right">Player2</label>
+          </div>
+        </div>
+        <br>
+    <button class="btn waves-effect waves-light" type="submit" name="action" onclick="Juego()" >Jugar<i class="material-icons right"></i></button>
+    
+ 
+
+
+<!-- Importando jquery para matelialize -->
+<script type="text/javascript" src="Jscript/jquery.min.js"></script>
+<!-- Importando js -->
+<script type="text/javascript" src="Jscript/materialize.min.js"></script>
+<script type="text/javascript" src="Jscript/funciones.js"></script>
+</body>
+</html>

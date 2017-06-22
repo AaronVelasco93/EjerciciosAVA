@@ -1,0 +1,38 @@
+div{
+    
+    background: aqua;
+    font-size: 30px;
+/*    tamaño de letra*/
+    width: 100px;
+/*    largo*/
+  height: 100px;
+/*    ancho*/
+    
+    float: inherit;
+}
+
+caja{
+    
+    position: relative; 
+    top: ;
+/*    abajo*/
+    bottom:100px ;
+    /*arriva*/
+    right: ;
+    /*izquierda*/
+    left: 200px; 
+/*    derecha*/
+}
+
+
+.caja{
+    position: static;
+    top: 100px;
+    bottom: ;
+    right: ;
+    left:300px ;
+    
+}
+
+
+
